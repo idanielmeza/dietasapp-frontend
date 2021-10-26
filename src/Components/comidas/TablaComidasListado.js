@@ -57,7 +57,7 @@ const TablaComidasListado = () => {
                                     <input name={alimento._id} id="icon_prefix" type="number" defaultValue={(alimento.porcion)}
                                      onBlur={handleAlimento}
                                      />
-                                    <label htmlFor="icon_prefix">Cantidad / {`${alimento.gramo}`} {(alimento.ml) ? <span>ml</span> : <span>gr</span>}</label>
+                                    <label htmlFor="icon_prefix">x{`${alimento.gramo}`} {(alimento.ml) ? <span>ml</span> : <span>gr</span>}</label>
                                 </div>
                                 
                             </div>

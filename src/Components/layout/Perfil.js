@@ -255,6 +255,7 @@ const Perfil = () => {
             <br></br>
 
             <Agregar/>
+            
 
         </div>
 
